@@ -2,20 +2,11 @@
 
 ## 1. Linux Architecture
 Linux can be understood as different layers working together:
-+-----------------------------+
-|      User Applications      |
-+-----------------------------+
-|        User Space           |
-| Shell, Commands, Programs   |
-+-----------------------------+
-|        System Calls         |
-+-----------------------------+
-|           Kernel            |
-| CPU | Memory | Files | I/O  |
-| Processes | Networking      |
-+-----------------------------+
-|          Hardware           |
-+-----------------------------+
+User Applications
+User Space (Shell, Commands, Programs)
+System Calls
+Kernel (CPU | Memory | Files | I/O | Processes | Networking) 
+Hardware 
 
 ### Kernel
 The kernel is the core of the Linux operating system.
@@ -125,25 +116,19 @@ df -h
 When a Linux service is not working, I can follow this basic flow:
 Service Problem
       |
-      v
 systemctl status <service>
       |
-      v
 Check logs
 journalctl -u <service>
       |
-      v
 Check processes
 ps aux / top
       |
-      v
 Check resources
 CPU / Memory / Disk
       |
-      v
 Fix the problem
       |
-      v
 Restart service
 systemctl restart <service>
 
