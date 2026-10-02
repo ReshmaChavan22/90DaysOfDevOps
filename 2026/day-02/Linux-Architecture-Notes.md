@@ -2,10 +2,10 @@
 
 ## 1. Linux Architecture
 Linux can be understood as different layers working together:
-User Applications
-User Space (Shell, Commands, Programs)
-System Calls
-Kernel (CPU | Memory | Files | I/O | Processes | Networking) 
+User Applications, 
+User Space (Shell, Commands, Programs), 
+System Calls, 
+Kernel (CPU | Memory | Files | I/O | Processes | Networking), 
 Hardware 
 
 ### Kernel
