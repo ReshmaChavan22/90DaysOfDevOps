@@ -2,7 +2,7 @@
 
 ## Process Management
 Command: Usage
-- 'ps aux' -	Display all running processes with detailed information.
+- `ps aux` -	Display all running processes with detailed information.
 - 'top' -	Monitor running processes and system resource usage in real time.
 - 'htop' -	Interactive and user-friendly process monitoring.
 - 'pgrep <name>' -	Find the process ID of a process by name.
