@@ -51,8 +51,7 @@ Command -	Usage
 
 ## Useful Command Combinations
 
-Find a Running Process
-ps aux | grep nginx
+Find a Running Process : ps aux | grep nginx 
 Finds processes related to nginx.
 
 Monitor a Log File
