@@ -51,21 +51,12 @@ Command -	Usage
 
 ## Useful Command Combinations
 
-Find a Running Process : ps aux | grep nginx 
-Finds processes related to nginx.
+Find a Running Process : ps aux | grep nginx (Finds processes related to nginx)
 
-Monitor a Log File
-tail -f /var/log/syslog
-Continuously displays new entries added to a log file.
+Monitor a Log File: tail -f /var/log/syslog (Continuously displays new entries added to a log file)
 
-Check Disk Usage
-df -h
-Shows available and used disk space in a human-readable format.
+Check Disk Usage: df -h (Shows available and used disk space in a human-readable format)
 
-Check Listening Ports
-ss -tuln
-Displays services currently listening for network connections.
+Check Listening Ports: ss -tuln {Displays services currently listening for network connections)
 
-Test an HTTP Endpoint
-curl -I https://example.com
-Fetches HTTP headers to quickly check whether a web endpoint is responding.
+Test an HTTP Endpoint: curl -I https://example.com (Fetches HTTP headers to quickly check whether a web endpoint is responding)
