@@ -56,10 +56,15 @@ The PPID represents the Parent Process ID.
 
 ## 3. Process States
 Linux processes can exist in different states.
+
 Running (R): Process is currently running or ready to run on the CPU.
+
 Sleeping (S): Process is waiting for an event or resource. This is normal for many processes.
+
 Uninterruptible Sleep (D): Process is usually waiting for I/O. It generally cannot be interrupted immediately. A large number of D state processes can indicate an I/O problem.
+
 Stopped (T): Process execution has been stopped. It can usually be resumed later.
+
 Zombie (Z): The process has finished execution. However, its parent has not yet collected its exit status.
 A zombie does not actively use CPU, but it remains in the process table.
 
